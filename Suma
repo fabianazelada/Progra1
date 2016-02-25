@@ -14,7 +14,7 @@ void main()
     cout<<"escriba ";
     cin>>b;
     x=a+b;
-    cout<< "a+b es " <<x;
+    cout<< "a+b es: " <<x;
     getch();
 
 }
