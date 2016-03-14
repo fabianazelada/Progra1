@@ -1,0 +1,26 @@
+iostream>
+
+int main()
+{
+	float P1= 0, P2 = 0, P3 = 0, EF = 0, PJ = 0, NP = 0;
+	float notafinal;
+	
+	cout << "Ingrese nota del Primer parcial" << endl;
+	cin >> P1;
+	cout << "Ingrese nota del Segundo parcial" << endl;
+	cin >> P2;
+	cout << "Ingrese nota del Tercer parcial" << endl;
+	cin >> P3;
+	cout << "Ingrese nota del Examen Final" << endl;
+	cin >> EF;
+	cout << "Ingrese nota del Proyecto" << endl;
+	cin >> PJ;
+	cout << "Ingrese nota de la Nota Practica" << endl;
+	cin >> NP;
+	
+	notafinal = (P1*0.15)+(P2*0.15)+(P3*0.15)+(EF*0.30)+(PJ*0.15)+(NP*0.10);
+	
+	cout << "Tu notafinal es:" << notafinal << endl;
+	
+	return 0;
+}
