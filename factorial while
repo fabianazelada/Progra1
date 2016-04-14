@@ -1,0 +1,26 @@
+// factor.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+using namespace std;
+void main()
+{
+	int n, I, P=1;
+	
+do{
+	cout<<"ingrese n";
+	cin>>n;
+	} while (n<0);
+	I=1;
+	while(I<=n)
+	{
+	P=P*I;
+	I++;
+	}
+	cout<<"el FACTORIAL es";
+	cout<<P;
+
+getch();
+}
