@@ -5,7 +5,7 @@
 #include "conio.h"
 #include <iostream>
 using namespace std;
-bool num_par(int a);
+bool num_par(int a); // Prototipo de la funcion
 
 void main()
 {
@@ -13,7 +13,7 @@ void main()
 	bool z;
 	cout<< "Ingrese un numero";
 	cin>> numero;
-	z=num_par(numero);
+	z=num_par(numero); // Llamar a la fucion 
 	if (z)
 		cout<<"es par";
 	else
